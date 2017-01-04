@@ -13,6 +13,9 @@ optional arguments:
   --o DST      destination file or folder (default: output)
   --num NUM    number of files to copy (default: 0 ( all ) )
   --p PROCNUM  how many processes to start in the pool (default: 1)
+                optimal value depends on the instance you are running on 
+                generally number of course x 2 works fine
+                setting it to more than 100 might cause 'Please slowdown' error message from AWS
   --v DEBUG    verbosity level (default: 0)
 
 *** merge ***
